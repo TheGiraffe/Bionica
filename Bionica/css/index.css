@@ -1,0 +1,251 @@
+@import url(fonts/CaviarDreams/stylesheet.css);
+@import url(fonts/uppereastside/stylesheet.css);
+@import url(icons/css/simple-line-icons.css);
+body{
+background-color: white;
+color: #009999;
+font-family: 'caviar_dreamsregular';}
+.navbar{
+  margin-bottom: -100px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.icon-social-instagram{}
+.icon-social-youtube{}
+.icon-social-github{}
+.icon-social-pinterest{}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5px 10px;
+    font-size: 12px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+.dropdown-content a {
+    color: #009999;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: pink}
+h1{
+  font-family:'uppereastsideregular';
+  font-size: 100px;
+  display:inline;
+}
+h2{
+  font-family:'uppereastsideregular';
+  font-size: 50px;
+  display:inline;
+}
+h3{
+  font-family:'uppereastsideregular';
+  font-size: 25px;
+  display:inline;
+}
+.imgthing{
+  display: inline-block;
+  width: 30%;
+  font-size: 15px;
+  color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.img1{
+  width: 200px;
+  height: 200px;
+  display: block;
+  background:url("otherimages/opensourcelove.png")center top no-repeat;
+  background-size: 100%;
+}
+.img1:hover{
+  background: url("otherimages/opensourcelove_hover.png");
+    background-size: 100%;
+}
+.img2{
+  width: 200px;
+  height: 200px;
+  display: block;
+  background: url("otherimages/solutions.png")center top no-repeat;
+  background-size: 100%;
+}
+.img2:hover{
+  background: url("otherimages/solutions_hover.png");
+    background-size: 100%;
+}
+.img3{
+  width: 200px;
+  height: 200px;
+  display: block;
+  background: url("otherimages/codeeducation.png")center top no-repeat;
+  background-size: 100%;
+}
+.img3:hover{
+  background: url("otherimages/codeeducation_hover2.png");
+    background-size: 100%;
+}
+
+
+.imgdiv{
+  background-color: #009999;
+  color: white;
+margin-top: 60px;
+width: auto;
+}
+.newsletterdiv{
+  background-color: pink;
+  color: white;
+margin-top: 30px;
+width: auto;
+padding-bottom: 10px;
+}
+.footer{
+  background-color:#00cccc;
+  color: white;
+margin-top: 30px;
+width: auto;
+padding: 20px;
+}
+.footerlink{
+  background-color: pink;
+  font-size: 15px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 10px;
+  border: 2px solid white;
+  padding: 2px;
+  text-align: center;
+}
+.footerlink:hover{
+  background-color: #009999;
+  font-size: 15px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 10px;
+  border: 2px solid white;
+  padding: 2px;
+  text-align: center;
+}
+.footericons{
+  display: inline-block;
+  font-size: 15px;
+}
+.icon-home{}
+.header1{
+  width: auto;
+  min-height: 40px;
+  background-color: #00cccc;
+  margin-bottom: 20px;
+  text-align: right;
+}
+.button1 {
+    background-color:#00cccc;
+    border:none;
+    color: white;
+    font-family: 'caviar_dreamsregular';
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '>>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+.button1:hover{
+  background-color: pink;
+}
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.iconbutton {
+    background-color:#009999;
+    border:none;
+    border-radius: 100%;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    color:white;
+}
+.iconbutton:hover{
+  background-color: pink;
+}
+input[type=text] {
+    width: 20%;
+    padding: 6px 10px;
+    border:none;
+    font-size: 30px;
+    font-family:'uppereastsideregular';
+    color: #009999;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.navigatedifferently{
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+.quotesotherinfo{
+  display: inline-block;
+  float: right;
+  width:50%;
+  text-align: right;
+}
+.quotes{
+  font-family:'uppereastsideregular';
+  font-size: 40px;
+  display:inline-block;
+  color: white;
+  text-decoration: none;
+}
+.madebysophia{
+  color: white;
+  font-family:'uppereastsideregular';
+  font-size: 14px;
+  display: inline-block;
+  padding-top: 20px;
+}
