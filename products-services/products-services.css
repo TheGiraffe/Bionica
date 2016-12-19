@@ -1,0 +1,39 @@
+@import url(../css/fonts/CaviarDreams/stylesheet.css);
+@import url(../css/fonts/uppereastside/stylesheet.css);
+@import url(fonts/icons/css/simple-line-icons.css);
+@import url(../css/style.css);
+
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url("fonts/caviardreams-webfont.woff");
+}
+@font-face {
+font-family: 'uppereastsideregular';
+src: url("fonts/uppereastside-webfont.woff");
+}
+.h2block{
+  font-family:'uppereastsideregular';
+  color: white;
+  font-size: 50px;
+  display:inline-block;
+}
+.header2{
+  width: auto;
+  min-height: 40px;
+  background-color: #00cccc;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contentgrid{
+  width: 100%;
+  height: 200px;
+  display: inline-block;
+  margin: 10px;
+  border-style: hidden;
+  border-radius: 10px;
+  background-image: url("../images/productsserviceslanding.png");
+  background-size: 100%;
+  color: white;
+}
