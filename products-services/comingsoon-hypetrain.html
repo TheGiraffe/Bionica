@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" href="products-services.css">
+<style type="text/css">
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  </style>
+  <script src="../js/jquery.min.js"></script>
+  <script src="js/comingsooncontents.js"></script>
+</head>
+<title>BIONICA | HYPE TRAIN</title>
+  <body>
+    <div class = "header1">
+      LET'S BE SOCIAL! :)
+      <a href="https://github.com/TheGiraffe/Bionica"><button class="iconbutton"><div class="icon-social-github"></div></button></a>
+      <button class="iconbutton"><div class="icon-social-instagram"></div></button>
+      <button class="iconbutton"><div class="icon-social-youtube"></div></button>
+      <button class="iconbutton"><div class="icon-social-pinterest"></div></button>
+  </div>
+  <center><h1>BIONICA</h1><br>
+    <i>Engineering The Future</i></center>
+    <br>
+    <center>
+
+    <div class="navbarpages">  <a href="../index.html"><button class="button1" style="vertical-align:middle"><span>HOME</span></button></a>
+  <div class="dropdown">
+  <a href="#aboutmywork"><button class="button1" style="vertical-align:middle"><span>ABOUT US</span></button></a>
+  <div class="dropdown-content">
+    <a href="#yolo">Mission Statement</a>
+    <a href="#yolo">Our Ohana</a>
+    <a href="#yolo">Core Values</a>
+  </div>
+  </div>
+  <div class="dropdown">
+  <a href="../products-services/products-services.html"><button class="button1" style="vertical-align:middle"><span>PRODUCTS & SERVICES</span></button></a>
+  <div class="dropdown-content">
+    <a href="#yolo">Tigershark Tarea</a>
+    <a href="#yolo">Handwritten Helper</a>
+    <a href="#hashbrown">Consulting</a>
+    <a href="../products-services/comingsoon-hypetrain.html">Coming Soon! <br>(Join The Hype Train)</a>
+  </div>
+  </div>
+  <div class="dropdown">
+  <a href="#contact"><button class="button1" style="vertical-align:middle"><span>OUTREACH & GIVING BACK</span></button></a>
+  <div class="dropdown-content">
+    <a href="#yolo">Open Source & Free Software</a>
+    <a href="#yolo">Educational Outreach</a>
+    <a href="#yolo">Hour Of Code</a>
+  </div>
+  </div>
+  <a href="#contact"><button class="button1" style="vertical-align:middle"><span>CONTACT US</span></button></a>
+  <a href="#contact"><button class="button1" style="vertical-align:middle"><span>KEEP UP WITH OUR BLOG</span></button></a></center
+  </div>
+<div class="header2"><center><h2 class="h2block">EXPERIMENTAL PRODUCTS AHEAD. JOIN THE HYPETRAIN.</h2></center></div>
+  <center><h3 class="h3landing">INNOVATIONS THAT ARE COMING SOON TO EARTHLINGS!</h3><br>
+    <div class="imglinkgrid">
+      <a href="#yo"><div class="landingimagegrid"><div id="1" class="contentlandinggrid"><h3>EXPERIMENTAL PRODUCT</h3><br><div class="contentlandinggriddescription">THIS PRODUCT IS REALLY EXPERIMENTAL </div><div class="contentlandinggriddescription"><i>(Click Box To Learn More)</i></div></div></div></a>
+      <a href="#yo"><div class="landingimagegrid"><div id="2" class="contentlandinggrid"><h3>TITLE</h3><br><div class="contentlandinggriddescription">SHORT DESCRIPTION</div><div class="contentlandinggriddescription"><i>(Click Box To Learn More)</i></div></div></div></a>
+      <a href="#yo"><div class="landingimagegrid"><div id="3" class="contentlandinggrid"><h3>TITLE</h3><br><div class="contentlandinggriddescription">SHORT DESCRIPTION </div><div class="contentlandinggriddescription"><i>(Click Box To Learn More)</i></div></div></div></a>
+      <a href="#yo"><div class="landingimagegrid"><div id="4" class="contentlandinggrid"><h3>TITLE</h3><br><div class="contentlandinggriddescription">SHORT DESCRIPTION </div><div class="contentlandinggriddescription"><i>(Click Box To Learn More)</i></div></div></div></a>
+      <div class="contentgrid"></div>
+      <a href="#yo"><div class="landingimagegrid"><div id="5" class="contentlandinggrid"><h3>TITLE</h3><br><div class="contentlandinggriddescription">SHORT DESCRIPTION </div><div class="contentlandinggriddescription"><i>(Click Box To Learn More)</i></div></div></div></a>
+      <a href="#yo"><div class="landingimagegrid"><div id="6" class="contentlandinggrid"><h3>TITLE</h3><br><div class="contentlandinggriddescription">SHORT DESCRIPTION </div><div class="contentlandinggriddescription"><i>(Click Box To Learn More)</i></div></div></div></a>
+      <a href="#yo"><div class="landingimagegrid"><div id="7" class="contentlandinggrid"><h3>TITLE</h3><br><div class="contentlandinggriddescription">SHORT DESCRIPTION </div><div class="contentlandinggriddescription"><i>(Click Box To Learn More)</i></div></div></div></a>
+      <a href="#yo"><div class="landingimagegrid"><div id="8" class="contentlandinggrid"><h3>TITLE</h3><br><div class="contentlandinggriddescription">SHORT DESCRIPTION </div><div class="contentlandinggriddescription"><i>(Click Box To Learn More)</i></div></div></div></a>
+
+    </div></center>
+
+    <script>
+    $(document).ready(function(){
+
+$('.contentgrid').hide();
+
+      $('#1').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content1).show();});
+      $('#2').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content2).show();});
+      $('#3').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content3).show();});
+      $('#4').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content4).show();});
+      $('#5').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content5).show();});
+      $('#6').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content6).show();});
+      $('#7').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content7).show();});
+      $('#8').on('click', function(){$('.contentgrid').hide();$('.contentgrid').html(content8).show();});
+
+      $('.landingimagegrid').on('dblclick', function(){
+        $('.contentgrid').hide();
+
+      });
+});
+    </script>
+  </body>
+
+</html>
